@@ -148,7 +148,7 @@ print(tup3)
 
 # Creating a Range
 # range type is used to represent an immutable sequence of numbers.
-# The range type is commonly used in for loops, list comprehensions, and when you need to generate a
+# The range type is commonly used in for loops, list 11_comprehensions, and when you need to generate a
 # series of numbers without explicitly creating a list.
 
 my_range = list(range(6))
