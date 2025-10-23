@@ -1,0 +1,81 @@
+/* Reset-ish */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+
+/* Center the whole app vertically + horizontally */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;          /* slate-900 */
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #e5e7eb;                /* gray-200 */
+}
+
+/* A simple centered card */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #111827;           /* gray-900 */
+  border: 1px solid #1f2937;     /* gray-800 */
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+
+h1, h2 {
+  margin: 0 0 16px 0;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 0.9rem;
+  color: #cbd5e1;                /* slate-300 */
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  background: #0b1220;           /* near slate */
+  color: #e5e7eb;
+  border: 1px solid #243040;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3b82f6;         /* blue-500 */
+  box-shadow: 0 0 0 3px rgba(59,130,246,.25);
+}
+
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0;
+  background: #3b82f6;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.05);
+}
+
+.muted { color: #94a3b8; font-size: .9rem; margin-top: 10px; }
+.error { color: #fca5a5; margin-top: 10px; white-space: pre-line; }
+
+.link {
+  color: #93c5fd;
+  text-decoration: none;
+}
+.link:hover { text-decoration: underline; }
+
+.header {
+  text-align: center;
+  margin-bottom: 8px;
+}

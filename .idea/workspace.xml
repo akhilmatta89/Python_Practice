@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1a4bd0-f912-49d2-90f1-072c8d4b5ff0" name="Changes" comment="">
-<<<<<<< HEAD
-=======
-      <change afterPath="$PROJECT_DIR$/13_OOPS/abstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/dunder_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/encapsulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/inheritance/hierarchical_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/inheritance/multi_level_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/inheritance/multiple_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/inheritance/single_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/polymorphism.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_9.py" afterDir="false" />
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
+    <list default="true" id="ef7a6f89-97ad-46f7-bf7a-84c16e6d17b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/auth_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/Protected.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/auth/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/utils/error.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,99 +46,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2FIp6t1uaY13mu2YUx8sfGrxmEs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="34Q2UFEbTWmwOHizm9B4Q4OaHfo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/DELL/Desktop/NCI",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;Python.password_auth_api.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/akhilmatta/Desktop/python/Python_Practice&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/13_OOPS/inheritance" />
-      <recent name="$PROJECT_DIR$/practice_examples/basic_part1" />
-      <recent name="$PROJECT_DIR$/04_inputs_outputs" />
-    </key>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.day_1">
-    <configuration name="01_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Practice" />
-      <option name="ENV_FILES" value="" />
-=======
-  <component name="RunManager" selected="Python.dunder_methods">
-    <configuration name="dunder_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="password_auth_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_OOPS/dunder_methods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="02_slicing_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Practice" />
-      <option name="ENV_FILES" value="" />
-=======
-    <configuration name="hierarchical_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_OOPS/inheritance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-<<<<<<< HEAD
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_strings/02_slicing_string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_string_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,127 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_strings" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Authentications/password_based_authentication" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_strings/03_string_methods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice_examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_examples/basic_part1/day_1.py" />
-=======
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_OOPS/inheritance/hierarchical_inheritance.py" />
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Python Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Practice" />
-      <option name="ENV_FILES" value="" />
-=======
-    <configuration name="polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
->>>>>>> 344f26adf559de2b0733769c43f6c85d7e2b5199
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_OOPS/polymorphism.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice_task_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_OOPS/practice_tasks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice_task_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_OOPS/practice_tasks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,143 +87,65 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dunder_methods" />
-        <item itemvalue="Python.practice_task_9" />
-        <item itemvalue="Python.polymorphism" />
-        <item itemvalue="Python.practice_task_8" />
-        <item itemvalue="Python.hierarchical_inheritance" />
+        <item itemvalue="Python.password_auth_api" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de1a4bd0-f912-49d2-90f1-072c8d4b5ff0" name="Changes" comment="" />
-      <created>1664189280214</created>
+      <changelist id="ef7a6f89-97ad-46f7-bf7a-84c16e6d17b9" name="Changes" comment="" />
+      <created>1761131488649</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664189280214</updated>
+      <updated>1761131488649</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/03_DataTypes/02_Builtin_Datatypes_01.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/05_operators/05_logical_or_boolean_operators.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/encapsulation.py</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>61</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/encapsulation.py</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>113</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/encapsulation.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>86</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>75</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>77</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/practice_tasks/practice_task_3.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/abstraction.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/dunder_methods.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/dunder_methods.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/dunder_methods.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/13_OOPS/dunder_methods.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
