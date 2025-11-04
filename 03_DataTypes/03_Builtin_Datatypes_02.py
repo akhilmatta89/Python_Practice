@@ -19,7 +19,7 @@ print(namelst)
 
 # --------------------------Byte type --------------------------
 
-elements = [10, 20, 30, -2, 40, 50, -5]
+elements = [10, 20, 30, 2, 40, 50, 5]
 print(type(elements))
 try:
     byteelem = bytes(elements)
@@ -34,6 +34,8 @@ except ValueError as e:
             elements.pop(count)
             count += 1
 print(elements)
+print(byteelem)
+print("%%%%%%%%%%%%%",list(byteelem))
 # Cannot modify or edit Byte types
 
 

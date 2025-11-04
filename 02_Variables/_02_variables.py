@@ -24,7 +24,7 @@ x = "Sally" # x is now of type str
 print(x)
 
 
-# If you want to specify the data type of a variable, this can be done with casting.
+# If you want to specify the data type of variable, this can be done with casting.
 
 x = str(3)    # x will be '3'
 print(x)

@@ -10,9 +10,7 @@ print("Cheers, Mate!")
 
 
 """
-Python does not really have a syntax for multi line comments.
-
-To add a multiline comment you could insert a # for each line:
+    Multi Line comment
 """
 
 

@@ -17,7 +17,7 @@ y = "is "
 z = "awesome"
 print(x + y + z)
 
-# For numbers.py, the + character works as a mathematical operator:
+# For numbers, the + character works as a mathematical operator:
 
 x = 5
 y = 10

@@ -32,3 +32,9 @@ try:
     frznset.update([1000,2000])
 except AttributeError as err:
     print("modifying is not supported", err)
+
+
+# Using frozenset as dictionary key
+d = {frozenset([1, 2]): "pair"}
+print(d[frozenset([1, 2])])  # ✅
+print(d)
