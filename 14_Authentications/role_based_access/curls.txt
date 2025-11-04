@@ -1,0 +1,64 @@
+# 1️⃣ Register ADMIN user
+curl.exe -X POST http://127.0.0.1:8000/auth/register `
+  -H "Content-Type: application/json" `
+  -d "{\"email\":\"admin@example.com\",\"password\":\"adminpass\",\"roles\":[\"admin\",\"user\"]}"
+
+# 2️⃣ Register NORMAL user
+curl.exe -X POST http://127.0.0.1:8000/auth/register `
+  -H "Content-Type: application/json" `
+  -d "{\"email\":\"user@example.com\",\"password\":\"userpass\",\"roles\":[\"user\"]}"
+
+# 3️⃣ LOGIN as ADMIN (store cookie)
+curl.exe -X POST http://127.0.0.1:8000/auth/login `
+  -H "Content-Type: application/json" `
+  -d "{\"email\":\"admin@example.com\",\"password\":\"adminpass\"}" `
+  -c cookies_admin.txt -i
+
+# 4️⃣ LOGIN as NORMAL USER (store cookie)
+curl.exe -X POST http://127.0.0.1:8000/auth/login `
+  -H "Content-Type: application/json" `
+  -d "{\"email\":\"user@example.com\",\"password\":\"userpass\"}" `
+  -c cookies_user.txt -i
+
+# 5️⃣ Check both users' token status (replace <ACCESS_TOKEN> manually)
+#    You’ll get access_token from each login JSON output.
+
+# ---- Admin token check ----
+curl.exe http://127.0.0.1:8000/token/status `
+  -H "Authorization: Bearer <ADMIN_ACCESS_TOKEN>"
+
+# ---- Normal user token check ----
+curl.exe http://127.0.0.1:8000/token/status `
+  -H "Authorization: Bearer <USER_ACCESS_TOKEN>"
+
+# 6️⃣ Access /me (both succeed)
+curl.exe http://127.0.0.1:8000/me `
+  -H "Authorization: Bearer <ADMIN_ACCESS_TOKEN>"
+
+curl.exe http://127.0.0.1:8000/me `
+  -H "Authorization: Bearer <USER_ACCESS_TOKEN>"
+
+# 7️⃣ Access /admin-only (admin OK, normal fails)
+curl.exe http://127.0.0.1:8000/admin-only `
+  -H "Authorization: Bearer <ADMIN_ACCESS_TOKEN>"
+
+curl.exe http://127.0.0.1:8000/admin-only `
+  -H "Authorization: Bearer <USER_ACCESS_TOKEN>"
+
+# 8️⃣ Require min TTL (test expiry)
+curl.exe "http://127.0.0.1:8000/token/require-ttl?min_seconds=30" `
+  -H "Authorization: Bearer <ADMIN_ACCESS_TOKEN>"
+
+# 9️⃣ Refresh both users (uses saved cookies)
+curl.exe -X POST http://127.0.0.1:8000/auth/refresh `
+  -b cookies_admin.txt -c cookies_admin.txt -i
+
+curl.exe -X POST http://127.0.0.1:8000/auth/refresh `
+  -b cookies_user.txt -c cookies_user.txt -i
+
+# 10️⃣ Logout both users
+curl.exe -X POST http://127.0.0.1:8000/auth/logout `
+  -b cookies_admin.txt -c cookies_admin.txt -i
+
+curl.exe -X POST http://127.0.0.1:8000/auth/logout `
+  -b cookies_user.txt -c cookies_user.txt -i
