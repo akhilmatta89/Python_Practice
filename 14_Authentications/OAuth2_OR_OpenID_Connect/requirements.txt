@@ -1,0 +1,19 @@
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.30,<0.31
+
+# JWT + hashing
+PyJWT>=2.9,<3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# Pydantic + email validation
+pydantic>=2.7,<3
+typing-extensions>=4.12,<5
+email-validator>=2,<3
+
+# Env & HTTP
+python-dotenv>=1.0,<2
+httpx>=0.27,<0.28
+
+# OAuth / OIDC
+authlib>=1.3,<2

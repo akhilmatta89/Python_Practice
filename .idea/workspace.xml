@@ -5,30 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7a6f89-97ad-46f7-bf7a-84c16e6d17b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/auth_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/backend/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/Protected.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/auth/AuthProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/pages/Signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/src/utils/error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/token_based_authentication/frontend/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/blacklist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/deps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/tokens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/core/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +42,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.password_auth_api.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_name_space.executor": "Run",
+    "Python.02_Builtin_Datatypes_01.executor": "Run",
+    "Python.03_Builtin_Datatypes_02.executor": "Run",
+    "Python.04_sets_Builtin_Datatypes.executor": "Run",
+    "Python.05_mapping_Bultin_Datatypes.executor": "Run",
+    "Python._04_multiple_variable_name_singlelne.executor": "Run",
+    "Python._05_output_variables.executor": "Run",
+    "Python._06_global_variables.executor": "Run",
+    "Python.keywords.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.password_auth_api.executor": "Debug",
+    "Python.role_based_access.executor": "Debug",
+    "Python.uvicorn.exe.executor": "Debug",
+    "Python.uvicorn.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/github_repos/Python_Practice/14_Authentications/role_based_access/app/auth/storage"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="password_auth_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\github_repos\Python_Practice\14_Authentications\role_based_access\app\auth\storage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\github_repos\Python_Practice\14_Authentications\role_based_access\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.uvicorn">
+    <configuration name="01_name_space" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Authentications/password_based_authentication" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_InputsOutputs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_InputsOutputs/01_name_space.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,9 +95,108 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03_Builtin_Datatypes_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/03_Builtin_Datatypes_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_sets_Builtin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/04_sets_Builtin_Datatypes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_mapping_Bultin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/05_mapping_Bultin_Datatypes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uvicorn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Authentications/role_based_access" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="uvicorn" />
+      <option name="PARAMETERS" value="app.main:app --reload --host 127.0.0.1 --port 8000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.01_name_space" />
+      <item itemvalue="Python.03_Builtin_Datatypes_02" />
+      <item itemvalue="Python.04_sets_Builtin_Datatypes" />
+      <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
+      <item itemvalue="Python.uvicorn" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.password_auth_api" />
+        <item itemvalue="Python.uvicorn" />
+        <item itemvalue="Python.01_name_space" />
+        <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
+        <item itemvalue="Python.04_sets_Builtin_Datatypes" />
+        <item itemvalue="Python.03_Builtin_Datatypes_02" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +255,51 @@
           <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
           <line>77</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/router.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/password_based_authentication/password_auth_api.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/router.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/storage/memory.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/storage/memory.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/router.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/main.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/deps.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

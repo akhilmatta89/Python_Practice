@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+work.xml
+
+# Local artifacts
+cookies*.txt
+.env
