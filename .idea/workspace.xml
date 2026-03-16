@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7a6f89-97ad-46f7-bf7a-84c16e6d17b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/blacklist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/deps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/auth/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/app/core/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Authentications/OAuth2_OR_OpenID_Connect/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_name_space.executor": "Run",
-    "Python.02_Builtin_Datatypes_01.executor": "Run",
-    "Python.03_Builtin_Datatypes_02.executor": "Run",
-    "Python.04_sets_Builtin_Datatypes.executor": "Run",
-    "Python.05_mapping_Bultin_Datatypes.executor": "Run",
-    "Python._04_multiple_variable_name_singlelne.executor": "Run",
-    "Python._05_output_variables.executor": "Run",
-    "Python._06_global_variables.executor": "Run",
-    "Python.keywords.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.password_auth_api.executor": "Debug",
-    "Python.role_based_access.executor": "Debug",
-    "Python.uvicorn.exe.executor": "Debug",
-    "Python.uvicorn.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/DELL/Desktop/github_repos/Python_Practice/14_Authentications/role_based_access/app/auth/storage"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_name_space.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Builtin_Datatypes_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_Builtin_Datatypes_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_sets_Builtin_Datatypes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_mapping_Bultin_Datatypes.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_multiple_variable_name_singlelne.executor&quot;: &quot;Run&quot;,
+    &quot;Python._05_output_variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python._06_global_variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keywords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password_auth_api.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.role_based_access.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.uvicorn.exe.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.uvicorn.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/github_repos/Python_Practice/14_Authentications/role_based_access/app/auth/storage&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\github_repos\Python_Practice\14_Authentications\role_based_access\app\auth\storage" />
@@ -72,7 +62,7 @@
       <recent name="C:\Users\DELL\Desktop\github_repos\Python_Practice\14_Authentications\role_based_access\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.uvicorn">
+  <component name="RunManager" selected="Python.main">
     <configuration name="01_name_space" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="ENV_FILES" value="" />
@@ -95,50 +85,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_Builtin_Datatypes_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/03_Builtin_Datatypes_02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04_sets_Builtin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/04_sets_Builtin_Datatypes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="05_mapping_Bultin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="ENV_FILES" value="" />
@@ -153,6 +99,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/05_mapping_Bultin_Datatypes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice_examples/flaskapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_examples/flaskapp/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.01_name_space" />
-      <item itemvalue="Python.03_Builtin_Datatypes_02" />
-      <item itemvalue="Python.04_sets_Builtin_Datatypes" />
       <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
       <item itemvalue="Python.uvicorn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.uvicorn" />
         <item itemvalue="Python.01_name_space" />
         <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
-        <item itemvalue="Python.04_sets_Builtin_Datatypes" />
-        <item itemvalue="Python.03_Builtin_Datatypes_02" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +290,21 @@
           <url>file://$PROJECT_DIR$/14_Authentications/role_based_access/app/auth/deps.py</url>
           <line>21</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
