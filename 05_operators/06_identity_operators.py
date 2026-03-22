@@ -1,7 +1,7 @@
 a = 25
 b = 25
 
-#This checks the memory locations
+# This checks the memory locations
 
 if a is b:
     print("The locations are same")

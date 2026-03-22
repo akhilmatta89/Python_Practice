@@ -1,6 +1,6 @@
 
 
-print("This is just for testing") #Just a print
+print("This is just for testing") # Just a print
 print("The new line can be added using '\n' \n here iam a new line")
 
 # The end keyword is used to specify the content that is to

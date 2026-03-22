@@ -16,7 +16,7 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 
-# *********************InLegal Variable Names****************************
+# *********************IlLegal Variable Names****************************
 """
 2myvar = "John"
 my-var = "John"

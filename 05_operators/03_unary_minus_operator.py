@@ -1,4 +1,4 @@
-""" -------------------- Unary minus opeartor (denoted by - symbol ------------------------)"""
+""" -------------------- Unary minus operator (denoted by - symbol ------------------------)"""
 n = 10
 print(-n)
 

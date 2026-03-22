@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7a6f89-97ad-46f7-bf7a-84c16e6d17b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Variables/_03_variable_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Variables/_03_variable_names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Variables/_06_global_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Variables/_06_global_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_DataTypes/04_sets_Builtin_Datatypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_DataTypes/04_sets_Builtin_Datatypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_InputsOutputs/01_name_space.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_InputsOutputs/01_name_space.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_InputsOutputs/05_output_using_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_InputsOutputs/05_output_using_print.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_operators/01_airthematic_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_operators/01_airthematic_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_operators/02_assignment_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_operators/02_assignment_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_operators/03_unary_minus_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_operators/03_unary_minus_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_operators/06_identity_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_operators/06_identity_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_operators/06_membership_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_operators/06_membership_operators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -48,10 +62,12 @@
     &quot;Python.role_based_access.executor&quot;: &quot;Debug&quot;,
     &quot;Python.uvicorn.exe.executor&quot;: &quot;Debug&quot;,
     &quot;Python.uvicorn.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/github_repos/Python_Practice/14_Authentications/role_based_access/app/auth/storage&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/github_repos/Python_Practice/14_Authentications/role_based_access/app/auth/storage&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,10 +78,9 @@
       <recent name="C:\Users\DELL\Desktop\github_repos\Python_Practice\14_Authentications\role_based_access\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.03_unary_minus_operator">
     <configuration name="01_name_space" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -85,9 +100,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03_unary_minus_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_operators/03_unary_minus_operator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_sets_Builtin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_DataTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_DataTypes/04_sets_Builtin_Datatypes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="05_mapping_Bultin_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -107,86 +163,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_output_using_print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice_examples/flaskapp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_InputsOutputs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_examples/flaskapp/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_InputsOutputs/05_output_using_print.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="uvicorn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Authentications/role_based_access" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="uvicorn" />
-      <option name="PARAMETERS" value="app.main:app --reload --host 127.0.0.1 --port 8000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.app" />
+      <item itemvalue="Python.03_unary_minus_operator" />
+      <item itemvalue="Python.04_sets_Builtin_Datatypes" />
+      <item itemvalue="Python.05_output_using_print" />
       <item itemvalue="Python.01_name_space" />
       <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
-      <item itemvalue="Python.uvicorn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.uvicorn" />
+        <item itemvalue="Python.03_unary_minus_operator" />
+        <item itemvalue="Python.05_output_using_print" />
         <item itemvalue="Python.01_name_space" />
         <item itemvalue="Python.05_mapping_Bultin_Datatypes" />
+        <item itemvalue="Python.04_sets_Builtin_Datatypes" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +218,17 @@
       <updated>1761131488649</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

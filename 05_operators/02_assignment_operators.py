@@ -1,30 +1,30 @@
 
 
-# Equals opeartor
+# Equals operator
 
-x = y = 10 #10 is saved at some location and is assigned to x variable
+x = y = 10  # 10 is saved at some location and is assigned to x variable
 
 """   += operator   """
-x+=y
+x += y
 print(x)
 
 """   -= operator   """
-x-=y
+x -= y
 print(x)
 
 """   *= operator   """
-x*=y
+x *= y
 print(x)
 
 """   %= operator   """
-x%=y
+x %= y
 print(x)
 
 """   **= operator   """
-y**=y
+y **= y
 print(y)
 
 """   /= operator   """
 y = 10
-y/=y
+y /= y
 print(y)

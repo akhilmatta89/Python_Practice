@@ -1,5 +1,5 @@
 """
-Global Variables that are created outside a function (as in all the examples above) are known as global variables.
+Global Variables that are created outside a function (as in all the examples) are known as global variables.
 
 Global variables can be used by everyone, both inside of functions and outside.
 

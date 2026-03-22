@@ -12,8 +12,6 @@ if "a" in mystr:
 if "z" not in mystr:
     print("No the value is not present")
 
-
-
 x = (10, 20, 30, 40, 50)
 
 if 10 in x:
@@ -23,9 +21,9 @@ if 100 not in x:
     print("No the value is not present")
 
 d = {
-    "name":"Akhil",
-    "rollNo":"137z1a0361",
-    "dep":"Mechanical",
+    "name": "Akhil",
+    "rollNo": "137z1a0361",
+    "dep": "Mechanical",
 }
 
 if "name" in d:

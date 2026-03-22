@@ -2,7 +2,7 @@
 
 # SET
 # FROZENSET
-#----------------------------------- SET ------------------------------------------------
+# ----------------------------------- SET ------------------------------------------------
 myset = {10, 20, 30, 40, 50, 10} # This will return unordered collection, no duplicates are allowed
 print(type(myset))
 print(myset)
@@ -15,7 +15,7 @@ lstset = [10, 20, 30, 40, 50, 10]
 lstset2=set(lstset)
 print(lstset2)
 
-#slicing or indexing we cannot do as it is unordered
+# slicing or indexing we cannot do as it is unordered
 lstset2.update([1000,2000])
 print(lstset2)
 
@@ -23,9 +23,9 @@ lstset2.remove(2000)
 print(lstset2)
 
 
-#----------------------------------- FROZEN SET ------------------------------------------------
+# ----------------------------------- FROZEN SET ------------------------------------------------
 
-myfrznset = {10, 20, 30, 40, 50, 10} #This cannot be modified
+myfrznset = {10, 20, 30, 40, 50, 10} # This cannot be modified
 frznset = frozenset(myfrznset)
 print(frznset)
 try:
